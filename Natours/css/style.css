@@ -134,6 +134,8 @@ body {
   }
 }
 
+/* Header Button */
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
