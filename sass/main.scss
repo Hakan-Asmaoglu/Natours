@@ -3,6 +3,7 @@ $color-primary-light: #7ed56f;
 $color-primary-dark: #28b485;
 
 $color-grey-dark: #777;
+$color-white: #fff;
 
 *,
 *::after *::before {
@@ -60,7 +61,7 @@ body {
 }
 
 .heading-primary {
-  color: white;
+  color: $color-white;
   text-transform: uppercase;
   backface-visibility: hidden;
 }
@@ -180,7 +181,7 @@ body {
 }
 
 .btn--white::after {
-  background-color: white;
+  background-color: $color-white;
 }
 
 .btn:hover::after {
