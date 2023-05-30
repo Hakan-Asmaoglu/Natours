@@ -58,16 +58,8 @@ body {
   font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase;
-
-  &:not(:last-child) {
-    margin-bottom: 3rem;
-  }
 }
 
 .paragraph {
   font-size: 1.6rem;
-
-  &:not(:last-child) {
-    margin-bottom: 3rem;
-  }
 }
