@@ -435,4 +435,5 @@ body {
 
 .section-stories {
   padding: 15rem 0;
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  position: relative; }
