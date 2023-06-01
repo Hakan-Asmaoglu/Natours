@@ -381,6 +381,9 @@ body {
     width: 100%;
     object-fit: cover; }
 
+.form__group:not(:last-child) {
+  margin-bottom: 2.5rem; }
+
 .form__input {
   font-size: 1.5rem;
   padding: 1.5rem 2rem;
@@ -388,6 +391,9 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
   font-family: inherit; }
+
+.form__input:focus {
+  outline: none; }
 
 .header {
   position: relative;
