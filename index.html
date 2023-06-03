@@ -388,36 +388,54 @@
 
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo" />
+        <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="Full logo"
+            src="img/logo-green-2x.png"
+          />
+        </picture>
       </div>
       <div class="row">
         <div class="col-1-of-2">
           <div class="footer__navigation">
             <ul class="footer__list">
               <li class="footer__item">
-                <a href="" class="footer__link">Company</a>
+                <a href="#" class="footer__link">Company</a>
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">Contact us</a>
+                <a href="#" class="footer__link">Contact us</a>
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">Careers</a>
+                <a href="#" class="footer__link">Carrers</a>
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">Privacy policy</a>
+                <a href="#" class="footer__link">Privacy policy</a>
               </li>
               <li class="footer__item">
-                <a href="" class="footer__link">Terms</a>
+                <a href="#" class="footer__link">Terms</a>
               </li>
             </ul>
           </div>
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Built by <a href="#" class="footer__link">Hakan Asmaoglu</a> for
-            udemy course
-            <a href="#" class="footer__link">Advanced CSS and Sass</a>.
-            Copyright &copy; designed by Jonas Schmedtmann.
+            Built by <a href="#" class="footer__link">Hakan Asmaoglu</a> for the
+            online course;
+            <a href="#" class="footer__link"
+              >Advanced CSS and Sass / Jonas Schmedman (DESIGNER)</a
+            >
+            <br />
+            <br />
+            Copyright &copy; Can be used for commercial and personal use. Can
+            not be claimed as personal design.
           </p>
         </div>
       </div>
