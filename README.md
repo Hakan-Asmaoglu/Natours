@@ -1,13 +1,16 @@
-<h1> NATOURS </H1>
-<h3>Natours is a responsive website that was created as part of the online course; Advance Css and Sass by Jonas Schmedtmann.</h3>
-<h3>The main purpose was to create a professional website for a nature tour service company. Main constraint was to esnure maintainable code and folder structure by combining BEM system with SCSS.</h3>
-<h3>The main learning target was to master advance css animations and layout with floats.</h3>
-<h3>You can check the website through the <a href="https://natours-hakan-asmaoglu.netlify.app/"> link </a>.
-<br>
- <h3>Tools</h3>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>SCSS</li>
-  </ul>
-  
+# NATOURS
+
+Natours is a responsive website that was created as part of the online course; Advance CSS and Sass by Jonas Schmedtmann.
+
+The main purpose was to create a professional website for a nature tour service company. The main constraint was to ensure maintainable code and folder structure by combining the BEM system with SCSS.
+
+The main learning target was to master advanced CSS animations and layout with floats.
+
+You can check the website through the [link](https://natours-hakan-asmaoglu.netlify.app/).
+
+## Tools
+
+- HTML
+- CSS
+- SCSS
+
